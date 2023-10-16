@@ -5,7 +5,6 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
 const Todo = ({ task, deleteTodo, editTodo, toggleComplete }) => {
   return (
-    <div>
       <div className="Todo">
         <p
           className={`${task.completed ? "completed" : "incompleted"}`}
@@ -26,7 +25,6 @@ const Todo = ({ task, deleteTodo, editTodo, toggleComplete }) => {
           />
         </div>
       </div>
-    </div>
   );
 };
 
